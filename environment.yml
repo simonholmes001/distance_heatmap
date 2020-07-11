@@ -1,6 +1,6 @@
 # Set-up of conda environment
 
-name: heatmap
+name: "heatmap"
 dependencies:
   - python=3.7
   - pandas
