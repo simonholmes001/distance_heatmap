@@ -1,10 +1,15 @@
+from setuptools import setup
 from distutils.core import setup, Extension
-import distutils.command.bdist_conda
 
 setup(
-    name="distance heatmap",
-    version="0.0.1",
-    distclass=distutils.command.bdist_conda.CondaDistribution,
+    name='distance_heatmap',
+    version='0.0.1',
+    packages=['distance_heatmap'],
+    url='https://github.com/simonholmes001/distance_heatmap',
+    license='BSD',
+    author='simon holmes',
+    author_email='simon@mathisi.ai',
+    description='Creates a distance heatmap from a distance or adjacency matrix',
     conda_buildnum=1,
     conda_features=['mkl'],
     conda_buildstr=py34_0,

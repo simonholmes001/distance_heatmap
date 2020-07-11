@@ -1,9 +1,9 @@
 package:
-  name: "distance heatmap"
+  name: distance_heatmap
   version: 0.0.1
 
 source:
-  git_rev: https://github.com/simonholmes001/distance_heatmap/releases/tag/v0.0.1
+#  git_rev: https://github.com/simonholmes001/distance_heatmap/releases/tag/v0.0.1
   git_url: https://github.com/simonholmes001/distance_heatmap.git
 
 build:
@@ -11,13 +11,13 @@ build:
 
 requirements:
   build:
-    - python
+    - python=3.7.7
   run:
-    - python
+    - python=3.7.7
     - pandas
-    - pickle
     - matplotlib
     - seaborn
+    - numpy
 
 test:
   imports:
