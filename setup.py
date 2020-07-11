@@ -11,5 +11,4 @@ setup(
     author_email='simon@mathisi.ai',
     description='Creates a distance heatmap from a distance or adjacency matrix',
     conda_buildnum=1,
-    conda_features=['mkl'],
 )
