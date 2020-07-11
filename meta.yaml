@@ -7,13 +7,17 @@ source:
   git_url: https://github.com/simonholmes001/distance_heatmap.git
 
 build:
-  number: 0.0.1
+  number: 1
 
 requirements:
   build:
     - python
   run:
     - python
+    - pandas
+    - pickle
+    - matplotlib
+    - seaborn
 
 test:
   imports:
