@@ -12,7 +12,6 @@ setup(
     description='Creates a distance heatmap from a distance or adjacency matrix',
     conda_buildnum=1,
     conda_features=['mkl'],
-    conda_buildstr=py34_0,
     conda_import_tests=False,
     conda_command_tests=False,
 )
